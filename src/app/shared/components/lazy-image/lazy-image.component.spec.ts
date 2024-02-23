@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AddCharacterComponent } from './add-character.component';
+import { LazyImageComponent } from './lazy-image.component';
 
-describe('AddCharacterComponent', () => {
-  let component: AddCharacterComponent;
-  let fixture: ComponentFixture<AddCharacterComponent>;
+describe('LazyImageComponent', () => {
+  let component: LazyImageComponent;
+  let fixture: ComponentFixture<LazyImageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [AddCharacterComponent]
+      declarations: [LazyImageComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(AddCharacterComponent);
+    fixture = TestBed.createComponent(LazyImageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
